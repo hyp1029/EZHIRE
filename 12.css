@@ -115,7 +115,7 @@ a.right:hover {
 
 .div1 {
 	
-	-webkit-filter: opacity(75%);
+	-webkit-filter: opacity(85%);
 	background-image: url("imge/bg.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -128,9 +128,7 @@ a.right:hover {
     height: 700px;
     vertical-align: top;
     padding-left: 0rem;
-    box-sizing: border-box;
-    list-style: none;
-    
+    list-style: none;  
 }
 .textbox{
 	margin-top: 113px;
@@ -171,10 +169,37 @@ a.right:hover {
     left:900px;
 }
 .t3 {
+    font-family: 'Gotham SSm', sans-serif;
+    color: #FFFFFF;
 	margin-top: 6rem;
 	margin-bottom:3rem;
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	line-height: 4rem;
 	display: block;
 	text-align: center;
+    word-spacing: 2px;
+}
+.links {
+    width:1062px;
+    height: 96px;
+    text-align: center;
+    margin: auto;
+}
+.links div {
+    display: inline-block;
+    width: 304px;
+    height: 24px;
+    margin-bottom: 15px;
+}
+.links div a {
+    text-align: center;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: transparent;
+
+}
+.greennum {
+    font-weight: 500;
+    color: #1CB78C;
 }
